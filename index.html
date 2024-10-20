@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Carta para você</title>
+  <link rel="stylesheet" href="./style.css">
+ <link rel="shortcut icon" href="favicon/letter.ico" type="image/x-icon">
+</head>
+<body>
+  <div class="container">
+    <div class="envelope-wrapper">
+        <div class="envelope">
+            <div class="letter">
+                <div class="text">
+                  <strong>Querido, Luís</strong>
+                  <p>
+                    Espero que você esteja bem, e caso não, saiba que você não
+                    precisa atravessar um caminho dificultoso sozinho. Sempre
+                    haverão pessoas especiais que se importam genuinamente contigo
+                    porque você tem o coração lindo de alguém que ama com toda alma.
+                    Você me anima com suas conversas e seu jeito de ser. Lembre-se
+                    de que tudo fica mais belo quando você sorri.
+                  </p>
+                  <p>Bejo da nana :)</p>
+                  <p>20/10/2024</p>
+                </div>
+            </div>
+        </div>
+        <div class="heart"></div>
+    </div>
+</div>
+<script>
+    const envelope = document.querySelector('.envelope-wrapper');
+    envelope.addEventListener('click', () => {
+        envelope.classList.toggle('flap');
+    });
+</script>
+</body>
+</html>
